@@ -1,0 +1,56 @@
+#each:hover{
+    background-color: #EDE7F6;
+}
+#each{
+    /*padding-right: 100%;*/
+}
+.cont_attr{
+    border-left-color: #000;
+    border-left-style: solid;
+    border-left-width: thick;
+}
+a:link    {color:#333; text-decoration:none}
+a:visited {color:#333; text-decoration:none}
+a:hover   {color:#333; text-decoration:none}
+a:active  {color:#333; text-decoration:none}
+
+#search_container{
+    margin: 1% 0 0 0;
+}
+
+#wikiInfo{
+    margin-bottom: 5%;
+}
+
+#page_title{
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+#random_container{
+    margin-bottom: 2%;
+}
+#random_article{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Roboto;
+}
+#random_article:hover{
+    text-decoration: underline;
+}
+#label{
+    font-weight: 600;
+    font-family: Roboto;
+    font-size: 20px;
+}
+#search, #go{
+    border-radius: 0;
+}
+
+
+
+
+
+

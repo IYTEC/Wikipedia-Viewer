@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wikipedia Viewer</title>
+        <link href="style/font-awesome-4.6.2/css/font-awesome.css" type="text/css" rel="stylesheet" />
+        <link href="style/bootstrap.css" type="text/css" rel="stylesheet" />
+        <link href="style/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <div id="page_title" class="text-center">Wikipedia Viewer</div>
+        <div class="container text-center" id="search_container">
+            <div id="random_container">
+                <a id="random_article" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a Random Article</a>
+            </div>
+            <div class="row">
+                <div class="col-xs-4 text-right">
+                    <label id="label">Enter Your Wikipedia Search: </label>
+                </div>
+                <div class="col-xs-4">
+                    <input class="form-control" id="search" type="search" value="" placeholder="Enter Your Search Parameter">
+                </div>
+                <div class="col-xs-4">
+                    <button class="form-control btn btn-primary" id="go" type="button" onclick="wiki_page();">Search</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-8" id="wikiInfo"></div>
+                <div class="col-xs-2"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="script/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="script/bootstrap.js"></script>
+        <script type="text/javascript" src="script/script.js"></script>
+    </body>
+</html>
